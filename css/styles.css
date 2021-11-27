@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.home {}
+
+.logo img {
+  width: 400px;
+  height: 100px;
+}
+
+.nav {
+  background-color: rgb(43, 4, 4);
+}
+
+li a {
+  margin-right: 50px;
+}
+
+li a::after {
+  content: '';
+  height: 2px;
+  display: block;
+  width: 0;
+  background-color: rgb(160, 76, 8);
+  transition: all .3s;
+}
+
+li a:hover::after {
+  width: 100%;
+}
+
+.homeBody {
+  background-image: url(/images/pizza-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.homeBodyP {
+  position: relative;
+  top: 150px;
+}
+
+.homeBodyP a {
+  background-color: rgb(160, 76, 8);
+  border: none;
+}
