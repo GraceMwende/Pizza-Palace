@@ -8,8 +8,6 @@
   font-family: sans-serif;
 }
 
-.home {}
-
 .logo img {
   width: 400px;
   height: 100px;
@@ -37,7 +35,7 @@ li a:hover::after {
 }
 
 .homeBody {
-  background-image: url(/images/pizza-bg.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/images/pizza-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -48,9 +46,27 @@ li a:hover::after {
 .homeBodyP {
   position: relative;
   top: 150px;
+  color: white;
 }
 
 .homeBodyP a {
   background-color: rgb(160, 76, 8);
   border: none;
+}
+
+.container {
+  margin: auto;
+}
+
+.row {
+  margin-bottom: 5%;
+}
+
+/* .icons {
+  font-size: 24px;
+  color: yellow;
+} */
+.footer {
+  background-color: rgb(43, 4, 4);
+  color: white;
 }
