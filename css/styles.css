@@ -58,14 +58,19 @@ li a:hover::after {
   margin: auto;
 }
 
+/* .card-footer i {
+  font-size: 12px;
+} */
+
 .row {
   margin-bottom: 5%;
 }
 
-/* .icons {
+.fas {
   font-size: 24px;
-  color: yellow;
-} */
+  color: red;
+}
+
 .footer {
   background-color: rgb(43, 4, 4);
   color: white;
