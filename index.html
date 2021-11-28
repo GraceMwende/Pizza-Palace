@@ -53,17 +53,86 @@
     <h1 class="display-4 text-center">Types of Pizzas</h1>
 
     <div class="row container">
-      <div class="card col-md-4">
+      <!-- first pizza -->
+      <div class="card col-md-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_623344781.jpg.webp"
           alt="cheese pizza" class="card-img-top">
         <div class="card-body text-center">
           <h5 class="card-title">Cheese Pizza</h5>
-          <p class="card-text">$0.50</p>
-          <div class="card-footer d-flex justify-content-around"><i class="fa fa-plus" aria-hidden="true"></i>lol<i
+          <p class="card-text">lorem ipsum</p>
+          <div class="card-footer d-flex justify-content-around"><i class="fa fa-plus" aria-hidden="true"></i>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Select Size</button><i
               class="fa fa-minus" aria-hidden="true"></i></div>
         </div>
       </div>
+      <!-- modal -->
+      <div class="modal fade" id="exampleModal" tabindex=-1 aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cheese Pizza</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p><u>Size</u></p>
+              <div class="form-check">
+                <div class="inputFlex d-flex justify-content-between">
+                  <div class="inputLabel">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">Small</label>
+                  </div>
+                  <p>200</p>
+                </div>
+              </div>
+              <div class="form-check">
+                <div class="inputFlex d-flex justify-content-between">
+                  <div class="inputLabel">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">Medium</label>
+                  </div>
+                  <p>400</p>
+                </div>
+              </div>
+              <div class="form-check">
+                <div class="inputFlex d-flex justify-content-between">
+                  <div class="inputLabel">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">Large</label>
+                  </div>
+                  <p>600</p>
+                </div>
+              </div>
+              <p><u>Toppings</u></p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDisabled">sausage</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDisabled">Extra Cheese</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDisabled">Mushroom</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDisabled">Black Olives</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDisabled">Green Pepper</label>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- second pizza -->
       <div class="card col-md-4">
         <img src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.webp"
           alt="cheese pizza" class="card-img-top">
@@ -137,6 +206,9 @@
     <p class="d-inline">Made by <i class="fa fa-heart-o"></i>Grace Mwende</p>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>

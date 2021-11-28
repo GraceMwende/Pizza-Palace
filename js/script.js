@@ -1,1 +1,4 @@
-console.log("grace");
+// $(document).ready(function () {
+//   var myModal = $("#myModal");
+//   var myInput = $("#myInput");
+// })
