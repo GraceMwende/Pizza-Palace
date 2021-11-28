@@ -75,13 +75,3 @@ li a:hover::after {
   background-color: rgb(43, 4, 4);
   color: white;
 }
-
-.popup-overlay,
-.popup-content {
-  visibility: hidden;
-}
-
-.popup-overlay.active,
-.popup-content.active {
-  visibility: visible;
-}
