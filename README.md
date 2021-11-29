@@ -2,20 +2,11 @@
 
 ## Live Link
 
-https://gracemwende.github.io/myPortfolio/
-
-## Project Design
-
-https://www.figma.com/file/Eb1609fqslnbTfaLH8NSy0/Untitled?node-id=0%3A1
-
-## Project picture
-
-<img src="images/design.png" alt="project design" />
+https://gracemwende.github.io/Pizza-Palace/
 
 #### Application Description
 
-Web portfolio to showcase my work.
-Createsthe landing page for your programming portfolio.
+Pizza inn web application that you can order for any type of pizza and choose the size, toppings and crust for the pizza
 
 #### By **List of contributors**
 
@@ -23,7 +14,7 @@ Createsthe landing page for your programming portfolio.
 
 ## Description
 
-Pizza inn web application that you can order for any type of pizza and choose the size, toppings and crust for the pizza
+Pizza application that allowsyou to order from the comfort of your home and decide whether you want the package delivered or not
 
 ## Setup/Installation Requirements
 
