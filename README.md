@@ -1,4 +1,4 @@
-# GRACE MWENDE PORTFOLIO
+# PIZZA PALACE
 
 ## Live Link
 
@@ -23,6 +23,8 @@ Pizza application that allowsyou to order from the comfort of your home and deci
 - Run in your browser
 
 ## Known Bugs
+
+- cruststs add
 
 ## Technologies Used
 
