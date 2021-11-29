@@ -74,6 +74,14 @@ $(document).ready(function () {
   $(".my-cart-btn").click(function (event) {
     event.preventDefault();
   });
+
+  $("#contact-form").on("submit", function (event) {
+    event.preventDefault();
+    var name = $("#name").val();
+    var location = $("#location").val();
+    alert(`${name} Your order will be delivered to your location \n Thankyou for choosing us`);
+    $(this)[0].reset();
+  })
 });
 
 function getToppings() {
